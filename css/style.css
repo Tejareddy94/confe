@@ -968,8 +968,18 @@ select.form-control:not([size]):not([multiple]) {
   display: inline-block;
 }
 
+.banner-two .block .timer .syotimer-cell{
+  margin-right: 25px;
+  margin-bottom: 33px;
+  display: inline-block;
+}
+
 @media (max-width: 575px) {
   .banner .block .timer .syotimer-cell {
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .banner-two .block .timer .syotimer-cell {
     margin-right: 10px;
     margin-bottom: 20px;
   }
@@ -990,8 +1000,28 @@ select.form-control:not([size]):not([multiple]) {
   box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
+
+
+.banner-two .block .timer .syotimer-cell .syotimer-cell__value {
+  min-width: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  line-height: 77px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border: 2px solid #7c7491;
+  margin-bottom: 8px;
+  border-radius: 100%;
+  box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 575px) {
   .banner .block .timer .syotimer-cell .syotimer-cell__value {
+    font-size: 30px;
+  }
+  .banner-two .block .timer .syotimer-cell .syotimer-cell__value {
     font-size: 30px;
   }
 }
@@ -1002,6 +1032,13 @@ select.form-control:not([size]):not([multiple]) {
     line-height: 61px;
     font-size: 25px;
   }
+
+  .banner-two .block .timer .syotimer-cell .syotimer-cell__value {
+    min-width: 65px;
+    line-height: 61px;
+    font-size: 25px;
+  }
+  
 }
 
 .banner .block .timer .syotimer-cell .syotimer-cell__unit {
@@ -1009,9 +1046,20 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 1rem;
   text-transform: lowercase;
   font-weight: normal;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
 }
+
+.banner-two .block .timer .syotimer-cell .syotimer-cell__unit {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: lowercase;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+}
+
+
 
 .banner .block h1 {
   text-transform: uppercase;
@@ -1022,16 +1070,20 @@ select.form-control:not([size]):not([multiple]) {
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
 }
 
+
+
 @media (max-width: 767px) {
   .banner .block h1 {
     font-size: 4rem;
   }
+  
 }
 
 @media (max-width: 400px) {
   .banner .block h1 {
     font-size: 2.50rem;
   }
+  
 }
 
 .banner .block h2 {
@@ -1043,16 +1095,19 @@ select.form-control:not([size]):not([multiple]) {
   font-style: italic;
 }
 
+
 @media (max-width: 767px) {
   .banner .block h2 {
     font-size: 3.2rem;
   }
+  
 }
 
 @media (max-width: 400px) {
   .banner .block h2 {
     font-size: 2.3rem;
   }
+  
 }
 
 .banner .block h6 {
