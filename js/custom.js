@@ -36,9 +36,9 @@
         //  Count Down JS
         // -----------------------------
         $('.timer').syotimer({
-            year: 2014,
+            year: 2020,
             month: 3,
-            day: 9,
+            day: 23,
             hour: 20,
             minute: 30
         });
