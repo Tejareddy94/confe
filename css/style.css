@@ -577,7 +577,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .main-nav .navbar-brand {
-  padding: 35px 40px 35px 50px;
+  padding: 25px 40px 25px 40px;
   border-right: 1px solid #e5e5e5;
 }
 
@@ -610,7 +610,7 @@ select.form-control:not([size]):not([multiple]) {
 
 @media (max-width: 1352px) {
   .main-nav .navbar-nav .nav-item .nav-link {
-    font-size: 0.75rem;
+    font-size: 1.0rem;
     padding-left: 5px;
     padding-right: 10px;
   }
@@ -713,7 +713,7 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav .ticket {
   background: #ff6600;
   display: block;
-  padding: 34px 32px;
+  padding: 22px 25px;
 }
 
 @media (max-width: 1200px) {
