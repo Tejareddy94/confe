@@ -1117,7 +1117,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .banner-two {
-  padding: 250px 0 150px;
+  padding: 100px 0 150px;
   position: relative;
   overflow: hidden;
 }
