@@ -994,7 +994,7 @@ select.form-control:not([size]):not([multiple]) {
   position: relative;
   font-weight: bold;
   color: #fff;
-  border: 2px solid #7c7491;
+  border: 2px solid #ffffff;
   margin-bottom: 8px;
   border-radius: 100%;
   box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
@@ -1092,7 +1092,7 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
   font-weight: 400;
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 
@@ -1152,7 +1152,7 @@ select.form-control:not([size]):not([multiple]) {
 
 @media (max-width: 575px) {
   .banner-two .block h3 {
-    font-size: 35px;
+    font-size: 2.85rem;
   }
 }
 
